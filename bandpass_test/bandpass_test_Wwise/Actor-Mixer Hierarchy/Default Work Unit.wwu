@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4B58AB11-AC66-45E0-A908-78E9CF786110}" SchemaVersion="89">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{4B58AB11-AC66-45E0-A908-78E9CF786110}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="test2" ID="{75BA06DC-FA4B-462C-B919-1D1E6049F0F2}" ShortID="693878246">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DD8A5DC-6BD0-4B68-B514-214E24FB3E81}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F2A2FF4-2C3A-4E7E-B72D-BA30FE7E20CA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="test" ID="{53E81729-2B96-43EE-9AE5-6AB30C7C2572}" ShortID="773677372">
+							<PropertyList>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DD8A5DC-6BD0-4B68-B514-214E24FB3E81}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="bandpass_test" CompanyID="64" PluginID="30853" PluginType="3">
+									<ObjectRef Name="New_bandpass_test" ID="{EE87E02C-3DFB-4476-A7E7-16948DED305D}" WorkUnitID="{1F2FECD3-948A-41C8-9D59-237FF467F2D1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F2A2FF4-2C3A-4E7E-B72D-BA30FE7E20CA}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="New_Auxiliary_Bus" ID="{84839299-8587-44A9-AFC4-1C48F27665F6}" WorkUnitID="{0F2A2FF4-2C3A-4E7E-B72D-BA30FE7E20CA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Lobo_Loco_-_08_-_Sleeping_Dragons_ID_1018" ID="{2A77BFDD-C04B-4EDF-908C-CE32460730B4}" ShortID="1029587554">
+									<Language>SFX</Language>
+									<AudioFile>Lobo_Loco_-_08_-_Sleeping_Dragons_ID_1018.wav</AudioFile>
+								</AudioFileSource>
+								<AudioFileSource Name="sinesweep" ID="{18C0B151-730E-4BFE-8117-786D3CD86602}" ShortID="381652899">
+									<Language>SFX</Language>
+									<AudioFile>sinesweep.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sinesweep" ID="{18C0B151-730E-4BFE-8117-786D3CD86602}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

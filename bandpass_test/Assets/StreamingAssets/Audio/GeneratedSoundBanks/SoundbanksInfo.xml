@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
+	<RootPaths>
+		<ProjectRoot>F:\Wwise Projects\bandpass_test\</ProjectRoot>
+		<SourceFilesRoot>F:\Wwise Projects\bandpass_test\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>F:\Unity Projects\bandpass_test\Assets\StreamingAssets\Audio\GeneratedSoundBanks\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>F:\Wwise Projects\bandpass_test\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\main</ObjectPath>
+			<ShortName>main</ShortName>
+			<Path>main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1076436650" Name="bandpass_event" ObjectPath="\Events\Default Work Unit\bandpass_event"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="381652899" Language="SFX">
+					<ShortName>sinesweep.wav</ShortName>
+					<Path>SFX\sinesweep_56D34C19.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

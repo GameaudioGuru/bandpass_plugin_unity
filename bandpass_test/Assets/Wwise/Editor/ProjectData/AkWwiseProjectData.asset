@@ -1,0 +1,260 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38f8adbfc2cf2b4ab4b4c88f73552fc, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: f950b233f0784740bcd14d9721e87af7
+    m_lastTime: -8586629927271628420
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: f42f2a0f3a2c7e4eb72dba30fe7e20ca
+    m_lastTime: -8586628994333785184
+    List:
+    - name: New_Auxiliary_Bus
+      guid: 999283848785a944afc41c48f27665f6
+      id: 373392551
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: New_Auxiliary_Bus
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\New_Auxiliary_Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 89ad3493b17d6746a32cd65482351cbf
+    m_lastTime: -8586629139976293193
+    List:
+    - name: main
+      guid: 8a5415c709880447aa19b019e4e84cbb
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: main
+        ObjectType: 7
+      Path: Default Work Unit\main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 704204518a09db418a2c466a5c9bad1c
+    m_lastTime: -8586628993281972321
+    List:
+    - name: bandpass_event
+      guid: 1277fbf017ce4d489d4324517e3b0e44
+      id: 1076436650
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: bandpass_event
+        ObjectType: 3
+      Path: Default Work Unit\bandpass_event
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: c70c5c01d8416e4e840045e26018c2a5
+    m_lastTime: -8586628256928303738
+    List:
+    - name: drysignal_onoff
+      guid: 97d915cbc4b3384cad3b7d22bd3953cd
+      id: 2717326059
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: input
+        ObjectType: 4
+      - ElementName: onoff
+        ObjectType: 4
+      - ElementName: drysignal_onoff
+        ObjectType: 13
+      Path: Default Work Unit\input\onoff\drysignal_onoff
+    - name: highband_gain
+      guid: fb331444e2ea384aac2378088ec9efa4
+      id: 1869034270
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: input
+        ObjectType: 4
+      - ElementName: gain
+        ObjectType: 4
+      - ElementName: highband_gain
+        ObjectType: 13
+      Path: Default Work Unit\input\gain\highband_gain
+    - name: highband_onoff
+      guid: 8ed2ee8198645e41a780710ce8bf9f3c
+      id: 1028344059
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: input
+        ObjectType: 4
+      - ElementName: onoff
+        ObjectType: 4
+      - ElementName: highband_onoff
+        ObjectType: 13
+      Path: Default Work Unit\input\onoff\highband_onoff
+    - name: highband_volumedb
+      guid: ca8ce789debb46408374abaab517c1e6
+      id: 3207696015
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: output
+        ObjectType: 4
+      - ElementName: highband_volumedb
+        ObjectType: 13
+      Path: Default Work Unit\output\highband_volumedb
+    - name: lowband_gain
+      guid: 181a42e193eb944aa13fcfbd1013288a
+      id: 3017960978
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: input
+        ObjectType: 4
+      - ElementName: gain
+        ObjectType: 4
+      - ElementName: lowband_gain
+        ObjectType: 13
+      Path: Default Work Unit\input\gain\lowband_gain
+    - name: lowband_onoff
+      guid: dc55ca92f664a1479c18531fb2284e92
+      id: 4036316063
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: input
+        ObjectType: 4
+      - ElementName: onoff
+        ObjectType: 4
+      - ElementName: lowband_onoff
+        ObjectType: 13
+      Path: Default Work Unit\input\onoff\lowband_onoff
+    - name: lowband_volumedb
+      guid: 38e209bb1bc0ee4cb7c361cae705ce57
+      id: 996816555
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: output
+        ObjectType: 4
+      - ElementName: lowband_volumedb
+        ObjectType: 13
+      Path: Default Work Unit\output\lowband_volumedb
+    - name: midband_gain
+      guid: 129591a93b8494488a65ef8063783a99
+      id: 289837782
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: input
+        ObjectType: 4
+      - ElementName: gain
+        ObjectType: 4
+      - ElementName: midband_gain
+        ObjectType: 13
+      Path: Default Work Unit\input\gain\midband_gain
+    - name: midband_onoff
+      guid: 1c46be756dd1834f9089d07662be391d
+      id: 49763699
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: input
+        ObjectType: 4
+      - ElementName: onoff
+        ObjectType: 4
+      - ElementName: midband_onoff
+        ObjectType: 13
+      Path: Default Work Unit\input\onoff\midband_onoff
+    - name: midband_volumedb
+      guid: cb24660b6a59334ab1722e88987d3119
+      id: 1318862295
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: output
+        ObjectType: 4
+      - ElementName: midband_volumedb
+        ObjectType: 13
+      Path: Default Work Unit\output\midband_volumedb
+    - name: vhighband_gain
+      guid: e991a686224c66449c37179975e331c1
+      id: 991218970
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: input
+        ObjectType: 4
+      - ElementName: gain
+        ObjectType: 4
+      - ElementName: vhighband_gain
+        ObjectType: 13
+      Path: Default Work Unit\input\gain\vhighband_gain
+    - name: vhighband_onoff
+      guid: e19bab0013c822449f7c5a5ea3fc1c6c
+      id: 1543719783
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: input
+        ObjectType: 4
+      - ElementName: onoff
+        ObjectType: 4
+      - ElementName: vhighband_onoff
+        ObjectType: 13
+      Path: Default Work Unit\input\onoff\vhighband_onoff
+    - name: vhighband_volumedb
+      guid: f28758939639d04e9a95f87ce77b4e11
+      id: 3055228579
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: output
+        ObjectType: 4
+      - ElementName: vhighband_volumedb
+        ObjectType: 13
+      Path: Default Work Unit\output\vhighband_volumedb
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 8e78e3908cf3bc43bb107be92aa090c3
+    m_lastTime: -8586629927271538414
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: da24b7e87e7b1a47a985a67f5ad4873d
+    m_lastTime: -8586629927271372737
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: e2d51482f97afc4e816582ffccaf2fb4
+    m_lastTime: -8586629927271683796
+    List: []
+  ExpandedItems:
+  - /bandpass_test
+  - /bandpass_test/Events
+  - /bandpass_test/Events/Default Work Unit
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

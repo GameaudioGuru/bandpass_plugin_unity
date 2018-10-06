@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1076436650	bandpass_event			\Default Work Unit\bandpass_event	
+
+Effect plug-ins	ID	Name	Type				Notes
+	38426620	bandpass_test (Custom)	bandpass_test			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1029587554	test	F:\Wwise Projects\bandpass_test\.cache\Windows\SFX\Lobo_Loco_-_08_-_Sleeping_Dragons_ID_1018_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\test		42219796
+

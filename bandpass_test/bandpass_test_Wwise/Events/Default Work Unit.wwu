@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{51044270-098A-41DB-8A2C-466A5C9BAD1C}" SchemaVersion="89">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{51044270-098A-41DB-8A2C-466A5C9BAD1C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="bandpass_event" ID="{F0FB7712-CE17-484D-9D43-24517E3B0E44}">
+					<ChildrenList>
+						<Action Name="" ID="{AEE11BC6-14E7-46E8-8746-5E164BC6AAA3}" ShortID="284777959">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="test" ID="{53E81729-2B96-43EE-9AE5-6AB30C7C2572}" WorkUnitID="{4B58AB11-AC66-45E0-A908-78E9CF786110}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

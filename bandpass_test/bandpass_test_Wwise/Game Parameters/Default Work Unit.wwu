@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{015C0CC7-41D8-4E6E-8400-45E26018C2A5}" SchemaVersion="89">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{015C0CC7-41D8-4E6E-8400-45E26018C2A5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="output" ID="{5B7DFF51-5020-4482-9545-7AE2B4188AF0}" ShortID="104953549">
+					<ChildrenList>
+						<GameParameter Name="highband_volumedb" ID="{89E78CCA-BBDE-4046-8374-ABAAB517C1E6}"/>
+						<GameParameter Name="lowband_volumedb" ID="{BB09E238-C01B-4CEE-B7C3-61CAE705CE57}"/>
+						<GameParameter Name="vhighband_volumedb" ID="{935887F2-3996-4ED0-9A95-F87CE77B4E11}"/>
+						<GameParameter Name="midband_volumedb" ID="{0B6624CB-596A-4A33-B172-2E88987D3119}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="input" ID="{36CC8988-1AF3-4A4D-B8FF-A73D361361F6}" ShortID="277417325">
+					<ChildrenList>
+						<Folder Name="onoff" ID="{0244B5E1-AECA-43F1-85CF-5635A9D83898}" ShortID="702154546">
+							<ChildrenList>
+								<GameParameter Name="lowband_onoff" ID="{92CA55DC-64F6-47A1-9C18-531FB2284E92}">
+									<PropertyList>
+										<Property Name="InitialValue" Type="Real64" Value="1"/>
+										<Property Name="Max" Type="Real64" Value="1"/>
+									</PropertyList>
+								</GameParameter>
+								<GameParameter Name="highband_onoff" ID="{81EED28E-6498-415E-A780-710CE8BF9F3C}">
+									<PropertyList>
+										<Property Name="InitialValue" Type="Real64" Value="0"/>
+										<Property Name="Max" Type="Real64" Value="1"/>
+									</PropertyList>
+								</GameParameter>
+								<GameParameter Name="midband_onoff" ID="{75BE461C-D16D-4F83-9089-D07662BE391D}">
+									<PropertyList>
+										<Property Name="InitialValue" Type="Real64" Value="0"/>
+										<Property Name="Max" Type="Real64" Value="1"/>
+									</PropertyList>
+								</GameParameter>
+								<GameParameter Name="drysignal_onoff" ID="{CB15D997-B3C4-4C38-AD3B-7D22BD3953CD}">
+									<PropertyList>
+										<Property Name="InitialValue" Type="Real64" Value="0"/>
+										<Property Name="Max" Type="Real64" Value="1"/>
+									</PropertyList>
+								</GameParameter>
+								<GameParameter Name="vhighband_onoff" ID="{00AB9BE1-C813-4422-9F7C-5A5EA3FC1C6C}">
+									<PropertyList>
+										<Property Name="InitialValue" Type="Real64" Value="0"/>
+										<Property Name="Max" Type="Real64" Value="1"/>
+									</PropertyList>
+								</GameParameter>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="gain" ID="{51C22D38-1AF0-49F3-8F9A-BB1F952E331A}" ShortID="783254026">
+							<ChildrenList>
+								<GameParameter Name="vhighband_gain" ID="{86A691E9-4C22-4466-9C37-179975E331C1}">
+									<PropertyList>
+										<Property Name="InitialValue" Type="Real64" Value="0"/>
+										<Property Name="Max" Type="Real64" Value="2"/>
+									</PropertyList>
+								</GameParameter>
+								<GameParameter Name="highband_gain" ID="{441433FB-EAE2-4A38-AC23-78088EC9EFA4}">
+									<PropertyList>
+										<Property Name="InitialValue" Type="Real64" Value="0"/>
+										<Property Name="Max" Type="Real64" Value="2"/>
+									</PropertyList>
+								</GameParameter>
+								<GameParameter Name="lowband_gain" ID="{E1421A18-EB93-4A94-A13F-CFBD1013288A}">
+									<PropertyList>
+										<Property Name="InitialValue" Type="Real64" Value="0"/>
+										<Property Name="Max" Type="Real64" Value="2"/>
+									</PropertyList>
+								</GameParameter>
+								<GameParameter Name="midband_gain" ID="{A9919512-843B-4894-8A65-EF8063783A99}">
+									<PropertyList>
+										<Property Name="InitialValue" Type="Real64" Value="0.5"/>
+										<Property Name="Max" Type="Real64" Value="2"/>
+									</PropertyList>
+								</GameParameter>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

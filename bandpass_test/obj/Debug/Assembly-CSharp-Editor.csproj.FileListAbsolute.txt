@@ -1,0 +1,2 @@
+F:\Unity Projects\bandpass_test\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+F:\Unity Projects\bandpass_test\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache

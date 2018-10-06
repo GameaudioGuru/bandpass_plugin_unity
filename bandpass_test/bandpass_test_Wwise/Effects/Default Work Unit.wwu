@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1F2FECD3-948A-41C8-9D59-237FF467F2D1}" SchemaVersion="89">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{1F2FECD3-948A-41C8-9D59-237FF467F2D1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="New_bandpass_test" ID="{EE87E02C-3DFB-4476-A7E7-16948DED305D}" PluginName="bandpass_test" CompanyID="64" PluginID="30853" PluginType="3">
+					<PropertyList>
+						<Property Name="drysignal_onoff" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{F3FC2775-9399-401F-917B-07E719DCB660}" ShortID="880031015">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="drysignal_onoff" ID="{CB15D997-B3C4-4C38-AD3B-7D22BD3953CD}" WorkUnitID="{015C0CC7-41D8-4E6E-8400-45E26018C2A5}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{5D807408-83FD-47A6-B752-E172407F024F}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>0.999</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>1</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="highband_onoff" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{E1D97D74-1E4E-43C8-9C1C-74342580168A}" ShortID="560988810">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="highband_onoff" ID="{81EED28E-6498-415E-A780-710CE8BF9F3C}" WorkUnitID="{015C0CC7-41D8-4E6E-8400-45E26018C2A5}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{2D5C0E5F-469D-4B7F-A6AE-5A2D41AC0031}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>0.999</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>1</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="highband_volume" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{B9D2AB1D-780A-466C-9C0C-D9C058479700}" ShortID="946990537">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="highband_gain" ID="{441433FB-EAE2-4A38-AC23-78088EC9EFA4}" WorkUnitID="{015C0CC7-41D8-4E6E-8400-45E26018C2A5}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{7378373E-A16B-44E4-B762-6FF65CC83FE0}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>2</XPos>
+												<YPos>2</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="lowband_onoff" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{2C0FD517-36A1-4171-B64B-D9F255DF7646}" ShortID="458947551">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="lowband_onoff" ID="{92CA55DC-64F6-47A1-9C18-531FB2284E92}" WorkUnitID="{015C0CC7-41D8-4E6E-8400-45E26018C2A5}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{D3B665D2-E003-4F7F-A1B8-C953DDE2968F}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>0.99753</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>1</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="lowband_volume" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{D1F07087-FFE4-4443-BE75-9099C27A67EE}" ShortID="1040684666">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="lowband_gain" ID="{E1421A18-EB93-4A94-A13F-CFBD1013288A}" WorkUnitID="{015C0CC7-41D8-4E6E-8400-45E26018C2A5}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{D513757B-4774-44F6-8F00-01A177D9B3D9}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>2</XPos>
+												<YPos>2</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="midband_onoff" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{94B2C310-9734-49BA-BF44-46A6367369B9}" ShortID="349222633">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="midband_onoff" ID="{75BE461C-D16D-4F83-9089-D07662BE391D}" WorkUnitID="{015C0CC7-41D8-4E6E-8400-45E26018C2A5}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{47267616-E28A-4BD7-A894-E7A584B4DC23}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>0.999</XPos>
+												<YPos>-0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>1</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="vhighband_onoff" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{C183FCF6-38F9-4355-8211-37DCA1CC5B55}" ShortID="841966320">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="vhighband_onoff" ID="{00AB9BE1-C813-4422-9F7C-5A5EA3FC1C6C}" WorkUnitID="{015C0CC7-41D8-4E6E-8400-45E26018C2A5}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{F380889D-1B32-4F0E-9E71-260A8C46CE09}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>0.999</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>1</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="vhighband_volume" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{37E6FAA1-9F89-49FE-8684-5112E6E6BB9A}" ShortID="314255693">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="vhighband_gain" ID="{86A691E9-4C22-4466-9C37-179975E331C1}" WorkUnitID="{015C0CC7-41D8-4E6E-8400-45E26018C2A5}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{4E67AEB7-A02B-42D8-9F24-0066526FAFF0}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>2</XPos>
+												<YPos>2</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="New_Wwise_Meter" ID="{8CDC6751-E011-40B7-934F-F258E27334C3}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">					<PluginData>
+	<GameParameter Name="lowband_volumedb" ID="{BB09E238-C01B-4CEE-B7C3-61CAE705CE57}"/>
+</PluginData>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1076436650	bandpass_event			\Default Work Unit\bandpass_event	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	49763699	midband_onoff			\Default Work Unit\input\onoff\midband_onoff	
+	991218970	vhighband_gain			\Default Work Unit\input\gain\vhighband_gain	
+	1028344059	highband_onoff			\Default Work Unit\input\onoff\highband_onoff	
+	1543719783	vhighband_onoff			\Default Work Unit\input\onoff\vhighband_onoff	
+	1869034270	highband_gain			\Default Work Unit\input\gain\highband_gain	
+	2717326059	drysignal_onoff			\Default Work Unit\input\onoff\drysignal_onoff	
+	3017960978	lowband_gain			\Default Work Unit\input\gain\lowband_gain	
+	4036316063	lowband_onoff			\Default Work Unit\input\onoff\lowband_onoff	
+
+Effect plug-ins	ID	Name	Type				Notes
+	13473489	New_bandpass_test	bandpass_test			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	381652899	test	F:\Unity Projects\bandpass_test\bandpass_test_Wwise\.cache\Windows\SFX\sinesweep_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\test2\test		1184104
+
