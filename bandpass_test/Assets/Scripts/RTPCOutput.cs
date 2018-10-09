@@ -108,6 +108,6 @@ public class RTPCOutput : MonoBehaviour {
         //get very highband volume in rms
       //  AkSoundEngine.GetRTPCValue(rtpcName_vhighbandVolumerms, RTPCgameObject, 0, out vhb_volume_rms, ref type);
 
-        Debug.Log(lb_volume_db);
+       // Debug.Log(lb_volume_db);
     }
 }

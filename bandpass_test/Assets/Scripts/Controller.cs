@@ -14,6 +14,13 @@ public class Controller : MonoBehaviour {
     public Text highbandVolumeOutput_db;
     public Text vhighbandVolumeOutput_db;
 
+    //set public inspector variables for the meters
+    public GameObject theMeter;
+
+    public float height;
+    
+
+
 
 
 
@@ -24,7 +31,7 @@ public class Controller : MonoBehaviour {
     // Use this for initialization
     void Start () {
 
-      
+       
 
     }
 	
@@ -37,6 +44,17 @@ public class Controller : MonoBehaviour {
         midbandVolumeOutput_db.text = RTPCOutput.mb_volume_db.ToString();
         highbandVolumeOutput_db.text = RTPCOutput.hb_volume_db.ToString();
         vhighbandVolumeOutput_db.text = RTPCOutput.vhb_volume_db.ToString();
+
+        //float height = theMeter.GetComponent<RectTransform>().rect.height;
+        var theMeterRectTransform = theMeter.transform as RectTransform;
+        theMeterRectTransform.sizeDelta = new Vector2(height, RTPCOutput.lb_volume_db);
+      
+
+
+
+
+
+
 
     }
 }
