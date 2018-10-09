@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="89">
+	<ValidationCacheItem File="F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1539113413" DateHigh="0"/>
+	<ValidationCacheItem File="F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\Attenuations\Default Work Unit.wwu" DateLow="1538614158" DateHigh="0"/>
+	<ValidationCacheItem File="F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\Audio Devices\Default Work Unit.wwu" DateLow="1538614158" DateHigh="0"/>
+	<ValidationCacheItem File="F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\bandpass_test.dreyes.wsettings" DateLow="1538790904" DateHigh="0"/>
+	<ValidationCacheItem File="F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\bandpass_test.wproj" DateLow="1538790902" DateHigh="0"/>
+	<ValidationCacheItem File="F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="1538614158" DateHigh="0"/>
+	<ValidationCacheItem File="F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\Conversion Settings\Default Work Unit.wwu" DateLow="1538614158" DateHigh="0"/>
+	<ValidationCacheItem File="F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1537306771" DateHigh="0"/>
+	<ValidationCacheItem File="F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1538614158" DateHigh="0"/>
+	<ValidationCacheItem File="F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\Effects\Default Work Unit.wwu" DateLow="1538788875" DateHigh="0"/>
+	<ValidationCacheItem File="F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\Effects\Factory Effects.wwu" DateLow="1537306771" DateHigh="0"/>
+	<ValidationCacheItem File="F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\Events\Default Work Unit.wwu" DateLow="1538707557" DateHigh="0"/>
+	<ValidationCacheItem File="F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\Game Parameters\Default Work Unit.wwu" DateLow="1538781192" DateHigh="0"/>
+	<ValidationCacheItem File="F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1538614158" DateHigh="0"/>
+	<ValidationCacheItem File="F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1538707452" DateHigh="0"/>
+	<ValidationCacheItem File="F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\Mixing Sessions\Default Work Unit.wwu" DateLow="1538614158" DateHigh="0"/>
+	<ValidationCacheItem File="F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\Modulators\Default Work Unit.wwu" DateLow="1538614158" DateHigh="0"/>
+	<ValidationCacheItem File="F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\Presets\Default Work Unit.wwu" DateLow="1538614158" DateHigh="0"/>
+	<ValidationCacheItem File="F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\Queries\Default Work Unit.wwu" DateLow="1538614158" DateHigh="0"/>
+	<ValidationCacheItem File="F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\Queries\Factory Queries.wwu" DateLow="1537306771" DateHigh="0"/>
+	<ValidationCacheItem File="F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\SoundBanks\Default Work Unit.wwu" DateLow="1538692887" DateHigh="0"/>
+	<ValidationCacheItem File="F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1538614158" DateHigh="0"/>
+	<ValidationCacheItem File="F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\States\Default Work Unit.wwu" DateLow="1538614158" DateHigh="0"/>
+	<ValidationCacheItem File="F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\Switches\Default Work Unit.wwu" DateLow="1538614158" DateHigh="0"/>
+	<ValidationCacheItem File="F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\Triggers\Default Work Unit.wwu" DateLow="1538614158" DateHigh="0"/>
+	<ValidationCacheItem File="F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\Virtual Acoustics\Default Work Unit.wwu" DateLow="1538614158" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Unity Projects\bandpass_test\bandpass_test_Wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1538790090" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Unity Projects\bandpass_test\bandpass_test_Wwise\Attenuations\Default Work Unit.wwu" DateLow="1538614158" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Unity Projects\bandpass_test\bandpass_test_Wwise\Audio Devices\Default Work Unit.wwu" DateLow="1538614158" DateHigh="0"/>

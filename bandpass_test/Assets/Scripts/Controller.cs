@@ -7,6 +7,19 @@ public class Controller : MonoBehaviour {
 
     //This is the RTPCOutput script that holds all of our variables
     public RTPCOutput RTPCOutput;
+    private float lowbandDB_output = 0.0f;
+    private float lowbandAdjusted;
+
+    float time = 0.5f;
+
+
+    //Publically define the rect transforms for our various meters
+
+    //lowband
+    public RectTransform lowBandMeter_Main;
+    public RectTransform lowBandMeter_2;
+    public RectTransform lowBandMeter_3;
+    public RectTransform lowBandMeter_4;
 
     //set public inspector variables for the UI textboxes we want to update
     public Text lowbandVolumeOutput_db;
@@ -17,16 +30,6 @@ public class Controller : MonoBehaviour {
     //set public inspector variables for the meters
     public GameObject theMeter;
 
-    public float height;
-    
-
-
-
-
-
-
-    //private float outputtest = 50.15f;
-    private float rtpcoutput;
 
     // Use this for initialization
     void Start () {
@@ -38,23 +41,28 @@ public class Controller : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-      
+        lowbandDB_output = RTPCOutput.lb_volume_db;
+        lowbandAdjusted = (lowbandDB_output * 0.5f);
+
         //This is where the UI text fields are updated in real time with the values from the bands
         lowbandVolumeOutput_db.text = RTPCOutput.lb_volume_db.ToString();
         midbandVolumeOutput_db.text = RTPCOutput.mb_volume_db.ToString();
         highbandVolumeOutput_db.text = RTPCOutput.hb_volume_db.ToString();
         vhighbandVolumeOutput_db.text = RTPCOutput.vhb_volume_db.ToString();
 
-        //float height = theMeter.GetComponent<RectTransform>().rect.height;
-        var theMeterRectTransform = theMeter.transform as RectTransform;
-        theMeterRectTransform.sizeDelta = new Vector2(height, RTPCOutput.lb_volume_db);
-      
+        //metering
+        //lowband metering
+        lowBandMeter_Main.sizeDelta = new Vector2(lowBandMeter_Main.sizeDelta.x, lowbandDB_output);
 
+    }
 
+    void LateUpdate()
+    {
+       
+            lowBandMeter_2.sizeDelta = new Vector2(lowBandMeter_2.sizeDelta.x, lowBandMeter_Main.sizeDelta.y);
+        
 
-
-
-
-
+        //lowBandMeter_3.sizeDelta = new Vector2(lowBandMeter_3.sizeDelta.x, lowbandAdjusted);
+        // lowBandMeter_4.sizeDelta = new Vector2(lowBandMeter_4.sizeDelta.x, lowbandAdjusted);
     }
 }

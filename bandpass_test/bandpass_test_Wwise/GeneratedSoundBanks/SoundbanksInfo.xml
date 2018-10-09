@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>F:\Unity Projects\bandpass_test\bandpass_test_Wwise\</ProjectRoot>
-		<SourceFilesRoot>F:\Unity Projects\bandpass_test\bandpass_test_Wwise\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>F:\Unity Projects\bandpass_test\bandpass_test_Wwise\GeneratedSoundBanks\</SoundBanksRoot>
+		<ProjectRoot>F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\</ProjectRoot>
+		<SourceFilesRoot>F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\GeneratedSoundBanks\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>F:\Unity Projects\bandpass_test\bandpass_test_Wwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -24,9 +24,9 @@
 				<Event Id="1076436650" Name="bandpass_event" ObjectPath="\Events\Default Work Unit\bandpass_event"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="381652899" Language="SFX">
-					<ShortName>sinesweep.wav</ShortName>
-					<Path>SFX\sinesweep_56D34C19.wem</Path>
+				<File Id="1029587554" Language="SFX">
+					<ShortName>Lobo_Loco_-_08_-_Sleeping_Dragons_ID_1018.wav</ShortName>
+					<Path>SFX\Lobo_Loco_-_08_-_Sleeping_Dragons_ID_1018_56D34C19.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
