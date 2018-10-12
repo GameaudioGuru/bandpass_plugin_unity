@@ -5,13 +5,23 @@
 			<ChildrenList>
 				<Event Name="bandpass_event" ID="{F0FB7712-CE17-484D-9D43-24517E3B0E44}">
 					<ChildrenList>
+						<Action Name="" ID="{D9E97870-2C04-4ABA-98C1-56AA46DBAFE1}" ShortID="680709747">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="track1" ID="{F770A524-30A6-4090-891D-65575CD447DC}" WorkUnitID="{E8B724DA-7B7E-471A-A985-A67F5AD4873D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{AEE11BC6-14E7-46E8-8746-5E164BC6AAA3}" ShortID="284777959">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="test" ID="{53E81729-2B96-43EE-9AE5-6AB30C7C2572}" WorkUnitID="{4B58AB11-AC66-45E0-A908-78E9CF786110}"/>
+									<ObjectRef Name="playlist" ID="{3B50A164-4EF6-4DC8-9FA8-FF3787E8C2C9}" WorkUnitID="{9DDDC20C-E00F-4FB8-996A-630799CECFD2}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

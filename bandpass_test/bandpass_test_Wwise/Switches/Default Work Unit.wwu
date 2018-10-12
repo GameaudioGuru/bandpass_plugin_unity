@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E8B724DA-7B7E-471A-A985-A67F5AD4873D}" SchemaVersion="89">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{E8B724DA-7B7E-471A-A985-A67F5AD4873D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E8B724DA-7B7E-471A-A985-A67F5AD4873D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Tracks" ID="{A1B8CF54-CD76-4120-A181-AB6F22401327}">
+					<ChildrenList>
+						<Switch Name="track1" ID="{F770A524-30A6-4090-891D-65575CD447DC}"/>
+						<Switch Name="track2" ID="{268E3056-80E5-488C-9A2B-CD369DBE8EAE}"/>
+						<Switch Name="track3" ID="{55414D7C-7756-455A-9B78-45447382C1BD}"/>
+						<Switch Name="track4" ID="{CE8A7E56-58F8-442A-B5C7-9242A21FC9E8}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

@@ -14,6 +14,9 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 Effect plug-ins	ID	Name	Type				Notes
 	13473489	New_bandpass_test	bandpass_test			
 
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	1029587554	test	F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\.cache\Windows\SFX\Lobo_Loco_-_08_-_Sleeping_Dragons_ID_1018_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\test2\test		42219796
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	76024856	Gaia (Full Version)	F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\.cache\Windows\SFX\Gaia (Full Version)_CB1F3167.wem	76024856.wem	\Interactive Music Hierarchy\Default Work Unit\playlist\track3\Gaia (Full Version)\Gaia (Full Version)	
+	82167763	sinesweep	F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\.cache\Windows\SFX\sinesweep_CB1F3167.wem	82167763.wem	\Interactive Music Hierarchy\Default Work Unit\playlist\track2\sinesweep\sinesweep	
+	110861666	Lobo_Loco_-_08_-_Sleeping_Dragons_ID_1018	F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\.cache\Windows\SFX\Lobo_Loco_-_08_-_Sleeping_Dragons_ID_1018_CB1F3167.wem	110861666.wem	\Interactive Music Hierarchy\Default Work Unit\playlist\track1\blues\Lobo_Loco_-_08_-_Sleeping_Dragons_ID_1018	
+	915037871	Danger - 1_30	F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\.cache\Windows\SFX\Danger - 1_30_CB1F3167.wem	915037871.wem	\Interactive Music Hierarchy\Default Work Unit\playlist\track4\Danger - 1_30\Danger - 1_30	
 

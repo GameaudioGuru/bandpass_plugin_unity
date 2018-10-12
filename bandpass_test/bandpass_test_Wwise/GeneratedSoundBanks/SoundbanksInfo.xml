@@ -8,7 +8,24 @@
 		<ExternalSourcesOutputRoot>F:\repos\Unity_Wwise_Bandpass_Plugin\bandpass_plugin_unity\bandpass_test\bandpass_test_Wwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
-	<StreamedFiles/>
+	<StreamedFiles>
+		<File Id="76024856" Language="SFX">
+			<ShortName>Gaia (Full Version).wav</ShortName>
+			<Path>SFX\Gaia (Full Version)_CB1F3167.wem</Path>
+		</File>
+		<File Id="82167763" Language="SFX">
+			<ShortName>sinesweep.wav</ShortName>
+			<Path>SFX\sinesweep_CB1F3167.wem</Path>
+		</File>
+		<File Id="110861666" Language="SFX">
+			<ShortName>Lobo_Loco_-_08_-_Sleeping_Dragons_ID_1018.wav</ShortName>
+			<Path>SFX\Lobo_Loco_-_08_-_Sleeping_Dragons_ID_1018_CB1F3167.wem</Path>
+		</File>
+		<File Id="915037871" Language="SFX">
+			<ShortName>Danger - 1_30.wav</ShortName>
+			<Path>SFX\Danger - 1_30_CB1F3167.wem</Path>
+		</File>
+	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
 		<SoundBank Id="1355168291" Language="SFX">
@@ -23,12 +40,12 @@
 			<IncludedEvents>
 				<Event Id="1076436650" Name="bandpass_event" ObjectPath="\Events\Default Work Unit\bandpass_event"/>
 			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="1029587554" Language="SFX">
-					<ShortName>Lobo_Loco_-_08_-_Sleeping_Dragons_ID_1018.wav</ShortName>
-					<Path>SFX\Lobo_Loco_-_08_-_Sleeping_Dragons_ID_1018_56D34C19.wem</Path>
-				</File>
-			</IncludedMemoryFiles>
+			<ReferencedStreamedFiles>
+				<File Id="76024856"/>
+				<File Id="82167763"/>
+				<File Id="110861666"/>
+				<File Id="915037871"/>
+			</ReferencedStreamedFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

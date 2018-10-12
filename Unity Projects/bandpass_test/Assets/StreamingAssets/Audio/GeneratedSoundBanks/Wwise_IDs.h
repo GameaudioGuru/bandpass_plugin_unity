@@ -16,6 +16,23 @@ namespace AK
         static const AkUniqueID BANDPASS_EVENT = 1076436650U;
     } // namespace EVENTS
 
+    namespace SWITCHES
+    {
+        namespace TRACKS
+        {
+            static const AkUniqueID GROUP = 147357U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID TRACK1 = 147423U;
+                static const AkUniqueID TRACK2 = 147420U;
+                static const AkUniqueID TRACK3 = 147421U;
+                static const AkUniqueID TRACK4 = 147418U;
+            } // namespace SWITCH
+        } // namespace TRACKS
+
+    } // namespace SWITCHES
+
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID DRYSIGNAL_ONOFF = 2717326059U;
